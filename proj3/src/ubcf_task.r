@@ -1,0 +1,16 @@
+selMethod <- "pearson"
+umodel <- model_ub()
+predict_ub(umodel,2)
+predict_ub(umodel,2, enhanced = TRUE)
+predict_ub(umodel,10)
+predict_ub(umodel,10, enhanced = TRUE)
+predict_ub(umodel,50)
+predict_ub(umodel,50, enhanced = TRUE)
+selMethod <- "cosine"
+umodel <- model_ub()
+predict_ub(umodel,2)
+predict_ub(umodel,2, enhanced = TRUE)
+predict_ub(umodel,10)
+predict_ub(umodel,10, enhanced = TRUE)
+predict_ub(umodel,50)
+predict_ub(umodel,50, enhanced = TRUE)
